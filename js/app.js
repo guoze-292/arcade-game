@@ -57,6 +57,7 @@ Player.prototype.update = function(dt){
 
   this.x = this.x;
   this.y = this.y;
+  this.checkCollisions();
   if(this.y == -10){
     this.x = 202;
     this.y = 410;
@@ -103,12 +104,12 @@ var allEnemies = [enemy1,enemy2,enemy3];
 
 Player.prototype.checkCollisions = function(){
   allEnemies.forEach(function(enemy){
-    if(Math.abs(enemy.x+75-this.x)<50){
-      if(Math.abs(enemy.y+75-this.y)<50)
+    if(Math.abs(enemy.x+30-this.x)<30){
+      if(Math.abs(enemy.y+30-this.y)<30)
       {
       this.x = 202;
       this.y = 410;
-    }}});
+    }}}.bind(this));
     };
 
 
