@@ -5,3 +5,4 @@ frontend-nanodegree-arcade-game
 
 2. use 'up','down','left','right' keyboard to control the character and pass the road without hitting bugs. once you pass and reach the river, you win.
  
+# arcade-game
