@@ -1,5 +1,5 @@
 ## This is a classic arcade game
-![Screenshot](screenshot.png?raw=true)
+![Screenshot](screenshot.png)
 
 ## Instruction 
 ===============================
